@@ -2,6 +2,10 @@
   "name": "mean-first",
   "version": "1.0.0",
   "description": "MEAN project",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/marciotedesco/mean-first.git"
+  },
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +19,8 @@
   "author": "Marcio Tedesco",
   "license": "ISC",
   "dependencies": {
+    "connect": "^3.3.4",
     "express": "latest",
     "grunt": "latest"
-    }
+  }
 }
