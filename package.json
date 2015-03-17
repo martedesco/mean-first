@@ -26,6 +26,7 @@
     "express": "latest",
     "grunt": "latest",
     "method-override": "^2.3.2",
+    "mongoose": "^3.8.25",
     "morgan": "^1.5.2"
   }
 }
