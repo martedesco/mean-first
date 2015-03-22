@@ -1,5 +1,6 @@
 angular.module('example').controller('ExampleController', ['$scope',
-	function($scope) {
-		$scope.name = 'mean-first';
+	'Authentication',
+	function($scope, Authentication) {
+		$scope.authentication = Authentication;
 	}
 ]);
