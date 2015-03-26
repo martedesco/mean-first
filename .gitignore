@@ -23,6 +23,7 @@ public/min/
 public/index.html
 vendor/*
 public/fonts
+public/lib
 
 # Other files#
 ##############
