@@ -1,6 +1,6 @@
 var mainApplicationModuleName = 'mean-first';
 
-var mainApplicationModule = angular.module(mainApplicationModuleName, ['ngResource','ngRoute', 'angusers', 'example', 'articles']);
+var mainApplicationModule = angular.module(mainApplicationModuleName, ['ngTouch','ui.bootstrap','ngResource','ngRoute', 'angusers', 'example', 'articles']);
 
 mainApplicationModule.config(['$locationProvider',
 	function($locationProvider) {
